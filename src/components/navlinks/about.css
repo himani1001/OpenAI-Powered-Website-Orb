@@ -1,0 +1,106 @@
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+   
+}
+.container{
+    margin-top: 20px;
+   
+}
+.about{
+    margin-top: 46px;
+    padding: 16px 67px 44px;
+    border-radius: 20px;
+    border: 1px solid #03b4b4;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 250%;
+    background: linear-gradient(45deg, rgb(0, 0, 0), #012835, rgb(1, 30, 44), rgb(0, 0, 0));
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+.text-light{
+    color: aliceblue;
+    cursor: pointer;
+}
+.text-light:hover{
+    color: rgb(9, 37, 48);
+}
+.experience__container > div{
+    /* background: var(--color-bg-variant); */
+    padding: 1.5rem 4rem;
+    transition: var(--transition);
+    border-radius: 20px;
+    border: 1px solid rgb(3, 180, 180);
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 250%;
+    background: linear-gradient(45deg, rgb(0, 0, 0), #012835, rgb(5, 9, 10), rgb(0, 0, 0));
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+
+}
+.experience__container > div:hover{
+    cursor: default;
+    background: transparent;
+    transition: var(--transition);
+    
+}
+.experience__container>div h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 19px;
+}
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    
+}
+/* ... (rest of the CSS) ... */
+
+  
+  .experience__content img {
+    /* Add any necessary styles for the image here */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+.experience__detail{
+    display: flex;
+    gap: 12px;
+}
+/* .dp{
+    margin-top: 2px;
+    position: absolute;
+    width: 3px;
+    height: 2px;
+    padding: 43px;
+    left: 601px;
+} */
+
+
+@media screen and (max-width:1024px){
+   .experience__container{
+    grid-template-columns: 1fr;
+
+   }
+   .experience__container > div{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+   }
+    }
+    
+    @media screen and (max-width:600px){
+        .experience__container{
+            gap: 1rem;
+        }
+        .experience__container>div{
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+        }

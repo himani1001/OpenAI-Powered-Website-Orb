@@ -9,7 +9,7 @@
    
 }
 .about{
-    margin-top: 46px;
+    margin: 50px 0 30px;
     padding: 16px 67px 44px;
     border-radius: 20px;
     border: 1px solid #03b4b4;
@@ -20,6 +20,7 @@
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
 }
+
 
 .text-light{
     color: aliceblue;

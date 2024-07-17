@@ -35,9 +35,9 @@ export const arrayItems =[
         }
     },
     {
-        name:"Querry Generator",
-        id:"Querry",
-        description:"This feature generates SQL querry according to the text written by the user",
+        name:"Query Generator",
+        id:"Query",
+        description:"Generates SQL query according to the text written by the user",
         option:{
             model: "text-davinci-003",
             temperature: 0,
@@ -49,9 +49,9 @@ export const arrayItems =[
         }
     },
     {
-        name:"Grammer Correction",
-        id:"grammerCorrection",
-        description:"this corrects grammatical errors from the user input ",
+        name:"Grammar Correction",
+        id:"grammarCorrection",
+        description:"Corrects grammatical errors from the user input ",
         option:{
             model: "text-davinci-003",
             temperature: 0,
@@ -63,9 +63,9 @@ export const arrayItems =[
         }
     },
     {
-        name:"about Movies",
+        name:"About Movies",
         id:"aboutMovies",
-        description:"This feature gives us brief description about any movie ",
+        description:"Gives us brief description about any movie ",
         option:{
             model: "text-davinci-003",
             temperature: 0.8,

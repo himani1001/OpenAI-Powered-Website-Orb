@@ -1,4 +1,4 @@
-The scope of this website is similar to ChatGPT and it utilizes OpenAI API. 
+The scope of this website is similar to ChatGPT and it utilizes OpenAI API. <br>
 Some possible features and functionalities that could be incorporated into this website are: Q and A, Language Translation, Grammer Correction, Image Generation, Text Summarization, Database Query Generator and Summary of movie.
 
 ![Screenshot 2024-07-09 223422](https://github.com/user-attachments/assets/100385c8-58eb-4e42-b23c-afcac8dfe26b)

@@ -71,7 +71,3 @@ This website leverages the OpenAI API to offer a variety of functionalities simi
 ## Contribution
 
 Feel free to fork the repository, make changes, and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License.

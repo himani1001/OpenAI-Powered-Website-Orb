@@ -59,7 +59,7 @@ This website leverages the OpenAI API to offer a variety of functionalities simi
 
 ## Technologies Used
 
-- **Frontend:** React, HTML, CSS
+- **Frontend:** React, CSS
 - **API:** OpenAI API
 
 
